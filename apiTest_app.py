@@ -1,7 +1,7 @@
 
 # A very simple Flask Hello World app for you to get started with...
 
-from flask import Flask
+from flask import Flask, request , jsonify
 from flask_sqlalquemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 import os
