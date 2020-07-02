@@ -53,7 +53,7 @@ producto_schema= ProductoSchema(many=True,strict=True)
 
 @app.route('/')
 def get():
-    return  jsonify({'msg':'Hola Mundito'})
+    return  jsonify({'msg':'Hola Mundo'})
 
 
 """ Corre el servidor """
